@@ -1,0 +1,45 @@
+# === Maven ===
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# === Java ===
+*.class
+*.jar
+*.war
+*.ear
+
+# === IntelliJ IDEA ===
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# === Eclipse ===
+.classpath
+.project
+.settings/
+
+# === VS Code ===
+.vscode/
+
+# === OS ===
+.DS_Store
+Thumbs.db
+
+# === Spring Boot ===
+*.log
+logs/
+
+# === H2 Database (file-based) ===
+data/
+
+# === Lombok ===
+lombok.config
+
+# === Misc ===
+*.swp
+*.swo
+*~
